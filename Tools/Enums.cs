@@ -17,5 +17,10 @@ namespace PPOLAB2.Tools
         Ride,
         Fly
         }
+        public enum AttackToType 
+        { 
+        Melee,
+        Ranged
+        }
     }
 }

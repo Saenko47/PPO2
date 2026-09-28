@@ -10,6 +10,7 @@ namespace PPOLAB2.Requests
         public int Health { get; set; }
         public Race race { get; set; }
         public MoveType moveType { get; set; }
+        public AttackToType attackType { get; set; }
         
     }
 }
