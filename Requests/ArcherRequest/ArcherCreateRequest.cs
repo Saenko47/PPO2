@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PPOLAB2.Requests.ArcherRequest
 {
-    internal class ArcherCreateRequest:BaseUnit
+    internal class ArcherCreateRequest: CreateUnitRequest
     {
     }
 }

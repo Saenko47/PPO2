@@ -11,7 +11,7 @@ namespace PPOLAB2.Fabric
     {
         public Warrior CreateWarrior(WarriorCreateRequest req) 
         {
-            Warrior newWarrior = new Warrior { race = req.race, attackType = req.attackType, health = req.Health, moveType = req.moveType };
+            Warrior newWarrior = new Warrior { race = req.race, attackType = req.attackType, health = req.health, moveType = req.moveType };
             return newWarrior;
         }
     }

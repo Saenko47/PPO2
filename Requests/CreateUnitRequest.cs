@@ -7,7 +7,7 @@ namespace PPOLAB2.Requests
 {
     internal class CreateUnitRequest
     {
-        public int Health { get; set; }
+        public int health { get; set; }
         public Race race { get; set; }
         public MoveType moveType { get; set; }
         public AttackToType attackType { get; set; }
